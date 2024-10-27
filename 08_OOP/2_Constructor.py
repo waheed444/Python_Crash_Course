@@ -21,3 +21,22 @@ print(car1.color)
 # Two Types of Consturctors:
 # 1--> Default Constructor           e.g:  With no parameters
 # 1--> Parameterized Constructor     e.g:  With some parameters  Like Car class
+
+# Example:
+
+class Student:
+    def __init__(self, name, marks):  # Constructor with name and marks parameters
+        self.name = name              # Assign the student's name
+        self.marks = marks            # Assign the student's marks
+        
+# Creating instances of Student with specific names and marks
+student1 = Student("Waheed", 88)
+student2 = Student("Ahmad", 92)
+
+# Accessing and printing attributes of student1
+print(f"Student Name: {student1.name}")
+print(f"Marks: {student1.marks}")
+
+# Accessing and printing attributes of student2
+print(f"Student Name: {student2.name}")
+print(f"Marks: {student2.marks}")
