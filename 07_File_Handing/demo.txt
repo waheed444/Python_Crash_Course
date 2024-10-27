@@ -1,0 +1,1 @@
+r+ is add text in start a in txt file using f.write I want to modify the data in txt file using f.write and i am also using append fuction over write function 
