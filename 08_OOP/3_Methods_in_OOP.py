@@ -2,12 +2,12 @@
 # Define Student class
 class Student:
         
-    # Constructor to initialize name and marks
+    # Thiss is default method (Function) called Constructor
     def __init__(self, name, marks):
         self.name = name        # Set the student's name
         self.marks = marks      # Set the student's marks
 
-    def welcome(self):           # Method to display a welcome message
+    def welcome(self):           # Another Method (Function) to display a welcome message
         print("Hello Welcome Students!")  # Print welcome message
 
 # Create a Student instance with name "Waheed" and marks 88
