@@ -1,0 +1,11 @@
+
+# Private Attributes/Methods
+
+class Account:
+    def __init__(self,ac_name,ac_pass):
+        self.ac_name=ac_name   #  This is Public attributes
+        self.__ac_pass=ac_pass   #  This is Private attributes
+        
+my_acc=Account("Waheed",11223344)
+print(my_acc.ac_name)     # This is accessable outside the class
+print(my_acc.ac_pass)     # Error!  This is not  accessable outside the class Reason-> Private
