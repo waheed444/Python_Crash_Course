@@ -31,7 +31,6 @@ student.student_info()
 print(student.name)          
 print(student.age)           
 
-
 # Another Example
 class Car:
 
@@ -48,6 +47,7 @@ class Toyota(Car):
         self.brand=brand
         self.color=color
         self.price=price
+        
         
 my_car=Toyota("Toyota","Black",2022)
 print(f"Car Brand : {my_car.brand}" )
