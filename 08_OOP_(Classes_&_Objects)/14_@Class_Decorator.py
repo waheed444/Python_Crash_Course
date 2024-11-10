@@ -40,3 +40,14 @@ person = Person()            # Creates an instance of Person
 person.ChangeName("Waheed")   # Changes the class attribute `name` to "Waheed"
 print(person.name)            # Output: "Waheed" (class attribute now changed for all instances)
 print(Person.name)            # Output: "Waheed" (class attribute updated)
+
+# Example # 04
+class Person:
+    name = "anonymous" 
+    @classmethod
+    def ChangeName(cls, name): 
+        cls.name = name
+person = Person()            # Creates an instance of Person
+person.ChangeName("Waheed")   # Changes the class attribute `name` to "Waheed"
+print(person.name)            # Output: "Waheed" (class attribute now changed for all instances)
+print(Person.name)            # Output: "Waheed" (class attribute updated)
