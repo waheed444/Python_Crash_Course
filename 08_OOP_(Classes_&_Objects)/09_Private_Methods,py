@@ -1,6 +1,4 @@
-
 # Private Attributes/Methods
-
 class Account:
     def __init__(self,ac_name,ac_pass):
         self.ac_name=ac_name   #  This is Public attributes
