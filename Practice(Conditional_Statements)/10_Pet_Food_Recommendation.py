@@ -4,8 +4,10 @@
 
 pet = input("Enter pet your (Dog or Cat):")
 pet_age = int(input("Enter pet's age: "))
+
 if pet_age<=2:
     print("Your pet's food : Puppy Food")
+    
 else:
     print("Your Pet's food : Senior Cat Food")
     
