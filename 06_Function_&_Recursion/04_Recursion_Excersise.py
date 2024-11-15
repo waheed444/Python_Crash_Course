@@ -1,4 +1,4 @@
-#write a Resursian function to find the sum of first n natural numbers: 
+#write a Recursion function to find the sum of first n natural numbers: 
 
 def sum_cal(n):
     if n==0:
@@ -23,5 +23,5 @@ def print_list(list,index=0):
     print(list[index])
     print_list(list,index+1)
 
-name=['waheed','ahmad','ali','abdullah','hassan','car','bycycle','motercar']
+name=['waheed','ahmad','ali','abdullah','hassan','car','bicycle','motorcar']
 print_list(name)

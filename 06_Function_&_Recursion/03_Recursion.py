@@ -1,16 +1,16 @@
 # Recursion is nothing but used the same function inside the function 
 # Recursion is the complex form of loops
 # We can use recursion in function instead of loops
-# Recursion helps to reduce the line of code make the program re-useble/readable. 
+# Recursion helps to reduce the line of code make the program re-usable/readable. 
 
-def show(n):    #Function defination
+def show(n):    #Function definition
     if n==0:    #Condition in function
         return  #return(When condition is true)
     print(n)    #piece of code
     show(n-1)   #function call itself inside a function (Recursion)
 show(5)         #call the function
 
-# RESURSION of factorial of n number 
+# RECURSION of factorial of n number 
 def fact(n):
     if n==0 or n==1:
         return 1

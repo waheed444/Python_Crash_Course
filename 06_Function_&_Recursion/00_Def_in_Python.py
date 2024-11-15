@@ -13,7 +13,7 @@ def multiplication(a,b):
 def division(a,b):
     div=("The div of a and b is :",a/b)
     print(div)    
-# Function  is defined  before(outside) the actuall program>
+# Function  is defined  before(outside) the actual program>
 a=10
 b=20
 addition(a,b)             #calling the function

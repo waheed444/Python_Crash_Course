@@ -1,6 +1,6 @@
 # WAF to print the length of a list. ( list is the parameter)
 # WAF to print the elements of a list in a single line. ( list is the parameter)
-list=['waheed','ahmad','ali','abdulla','hassan','car','bycycle','motercar']
+list=['waheed','ahmad','ali','abdullah','hassan','car','bicycle','motorcar']
 def len_list(list):
     for i in list:
         print(i)

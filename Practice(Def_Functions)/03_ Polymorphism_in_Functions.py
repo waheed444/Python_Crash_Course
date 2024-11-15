@@ -6,7 +6,7 @@ def multiply(parameter1,parameter2):
     return result
 
 
-print(multiply("Ali","Hassan"))
+print(multiply("Ali","Hassan"))   
 
 
 
