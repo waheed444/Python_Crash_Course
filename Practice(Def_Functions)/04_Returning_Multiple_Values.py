@@ -16,10 +16,18 @@ def circumference(num):
     print(f"Circumference of circle is : {result2}")
     return result2
 
+# We can take input(radius) from the user :
+# radius = float(input("Enter radius here : "))
+area(5)
+circumference(5)
+
+# Method # 2 --> We can also use one function to find both area+circumference
+def circle(num):
+    area = 3.14*num*num
+    circumference = 2*3.14*num
+    print(f"Area : {area} \nCircumference : {circumference}")
+    return area,circumference
 
 # We can take input(radius) from the user :
-
-radius = float(input("Enter radius here : "))
-area(radius)
-circumference(radius)
-
+# radius = float(input("Enter radius here : "))
+circle(5)
