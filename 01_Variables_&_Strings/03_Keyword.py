@@ -1,15 +1,9 @@
-#Keywords are the reserve words in pytyhon and other programming language.
-#They have predefined meaning in the python.
-#There are many keywords are used in python.
+# Keywords are the reserve words in pytyhon and other programming language.
+# They have predefined meaning in the python.
+# There are many keywords are used in python.
 # Keyword name can't be used as varaiable name
-# #print
-# input
-# if
-#while
-#int
-# else
-# True
-# False
+# Example : 
+# print if else elif do while int False input
 
 
 print("HELLO WORLD") 
