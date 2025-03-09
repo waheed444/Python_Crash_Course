@@ -3,21 +3,21 @@
 # Dictionary items are key-value pairs 
 # that are separated by commas and enclosed within curly brackets {}.
 
-info = {'name':'waheed', 'age':21, 'eligible':True}
-print(info)
+dic = {'name':'waheed', 'age':21, 'eligible':True}
+print(dic)
 
 #Accessing multiple values:
 
-info = {'name':'ahmad', 'age':19, 'eligible':True}
-print(info['name'])
-print(info.get('eligible'))
+dic = {'name':'ahmad', 'age':19, 'eligible':True}
+print(dic['name'])
+print(dic.get('eligible'))
 
 
-info = {'name':'waheed', 'age':21, 'eligible':True}
-print(info.values())
+dic = {'name':'waheed', 'age':21, 'eligible':True}
+print(dic.values())
 
-info = {'name':'ahmad', 'age':19, 'eligible':True}
-print(info.keys())
+dic = {'name':'ahmad', 'age':19, 'eligible':True}
+print(dic.keys())
 
 
 

@@ -29,7 +29,6 @@ info = {'name':'Karan', 'age':19, 'eligible':True}
 info.pop('age')
 print(info)
 
-
 #popitem():
 # The popitem() method removes the last key-value pair from the dictionary.
 
