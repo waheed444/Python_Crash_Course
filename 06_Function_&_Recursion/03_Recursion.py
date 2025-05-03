@@ -1,6 +1,6 @@
 # Recursion is nothing but used the same function inside the function 
 # Recursion is the complex form of loops
-# We can use recursion in function instead of loops
+# We can use recursion in function instead of loop
 # Recursion helps to reduce the line of code make the program re-usable/readable. 
 
 def show(n):    #Function definition

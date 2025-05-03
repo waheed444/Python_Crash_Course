@@ -1,6 +1,6 @@
 # while  loop is used for complex calculations
-#while loop must have  any intiall  value of the variable
-#while loop is used to do anything again and again 
+# while loop must have  any intiall  value of the variable
+# while loop is used to do anything again and again 
 x=0                 #intialization
 while(x<=10):      #condition
     print(x)       #code
@@ -21,5 +21,5 @@ print("You value is  :",n)
 while(n>=18):
     n=int(input("Enter the value  :"))
     print(n)
-print("You are eligible for the CNI")
+print("You are eligible for the CNIC")
   
