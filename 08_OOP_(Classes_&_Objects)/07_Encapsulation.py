@@ -34,3 +34,4 @@ account = BankAccount("Waheed", 500)
 # Accessing balance through methods
 account.deposit(200)        # Deposited 200. New Balance: 700
 account.withdraw(100)       # Withdrew 100. New Balance: 600
+
